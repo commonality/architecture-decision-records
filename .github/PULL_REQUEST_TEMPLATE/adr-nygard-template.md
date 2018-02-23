@@ -4,7 +4,8 @@ Date: YYYY-MM-DD
 
 ## Status
 
-<!-- Proposed -->![ADR Status: Proposed][label-adr-proposed-img]
+<!-- Proposed --> 
+![ADR Status: Proposed][label-adr-proposed-img]
 
 ## Context
 
@@ -45,7 +46,7 @@ Date: YYYY-MM-DD
 [label-tech-radar-langs-frameworks-img]: https://fakeimg.pl/200x80/b32059/FFF/?text=TechRadar:%0ALanguages+%26+Frameworks&font_size=24
 <!-- RINGS: Languages and Frameworks -->
 [label-tech-radar-langs-frameworks-adopt-img]: https://fakeimg.pl/80x40/b32059/FFF/?text=Adopt&font_size=18
-[label-tech-radar-langs-frameworks-trial-img]: https://fakeimg.pl/80x40/b32059/FFF/?text=Trial&font_size=18
+[label-tech-radar-langs-frameworks-trial-img]: https://fakeimg.pl/80x40/b32059/FFF/?text=Trial&font_size=
 [label-tech-radar-langs-frameworks-assess-img]: https://fakeimg.pl/80x40/b32059/FFF/?text=Assess&font_size=18
 [label-tech-radar-langs-frameworks-hold-img]: https://fakeimg.pl/80x40/b32059/FFF/?text=Hold&font_size=18
 <!-- QUADRANT: Platforms -->
