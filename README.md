@@ -1,13 +1,14 @@
-# architecture-decision-records
-A community-driven repository of Architecture Decision Records (ADRs): lightweight, actionable documents that capture design, framework, and application choices that address significant requirements and product delivery challenges facing commonality's product delivery teams.
+# Architecture Decision Records (ADRs)
+
+> <img alt="Repository" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/repo.svg" height="60" width="60" align="left"> A community-driven repository of Architecture Decision Records (ADRs): lightweight, actionable documents that capture design, framework, and application choices that address significant requirements and product delivery challenges facing commonality's product delivery teams.
 
 ---
 
 ## Propose an architecture decision
 
-> <img alt="Info" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/info.svg" height="18" width="18" align="left"> We classify ADRs by [TechRadar ![External link][icon-octicon-link-external]][tw-tech-radar-faq-url] Quadrant.
+> <img alt="Info" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/info.svg" height="26" width="26" align="left"> We classify ADRs by [TechRadar ![External link][icon-octicon-link-external]][tw-tech-radar-faq-url] Quadrant.
 
-- [Propose a [Language or Framework ![External link][icon-octicon-link-external]][tw-tr-languages-frameworks]
+- Propose a [Language or Framework ![External link][icon-octicon-link-external]][tw-tr-languages-frameworks]
 
   - [MADR template][adr-madr-languages-frameworks]
   - [Nygard template][adr-nygard-languages-frameworks]
@@ -35,7 +36,6 @@ A community-driven repository of Architecture Decision Records (ADRs): lightweig
 [adr-madr-techniques]: https://github.com/commonality/architecture-decision-records/compare/adr-0001?expand=1&title=adr(techniques):%20add%20MADR%20template&template=adr_template_madr.md
 [adr-madr-tools]: https://github.com/commonality/architecture-decision-records/compare/adr-0001?expand=1&title=adr(tools):%20add%20MADR%20template&template=adr_template_madr.md
 
-
 [adr-nygard-languages-frameworks]: https://github.com/commonality/architecture-decision-records/compare/adr-0001?expand=1&title=adr(languages-frameworks):%20add%20MADR%20template&template=adr-nygard-template.md
 [adr-nygard-platforms]: https://github.com/commonality/architecture-decision-records/compare/adr-0001?expand=1&title=adr(platforms):%20add%20MADR%20template&template=adr-nygard-template.md
 [adr-nygard-techniques]: https://github.com/commonality/architecture-decision-records/compare/adr-0001?expand=1&title=adr(techniques):%20add%20MADR%20template&template=adr-nygard-template.md
@@ -44,6 +44,7 @@ A community-driven repository of Architecture Decision Records (ADRs): lightweig
 [icon-octicon-link-external]: https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/link-external.svg
 [icon-octicon-file-text]: https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/file-text.svg
 [icon-octicon-info]: https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/info.svg
+[icon-octicon-repo]: https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/info.svg
 
 <!-- QUADRANT: Languages and Frameworks -->
 [label-langs-frameworks-img]: https://fakeimg.pl/200x40/b32059/FFF/?text=Languages+%26+Frameworks&font_size=24
