@@ -53,6 +53,28 @@
     "semantic-release": "13.4.1"
   },
   "homepage": "https://github.com/commonality/architecture-decision-records",
+  "jest": {
+    "name": "architecture-decision-records",
+    "automock": false,
+    "collectCoverage": true,
+    "coverageDirectory": "/docs/coverage",
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "projects": [
+      "<rootDir>"
+    ],
+    "testPathIgnorePatterns": [
+      "/__tests__/__fixtures__/",
+      "/__fixtures__/",
+      "/__mocks__/"
+    ]
+  },
   "keywords": [
     "architecture-decision-records adr architecture-decision decision-records architecture-doc architecture-guidelines evolutionary-architecture tech-radar"
   ],
@@ -62,12 +84,14 @@
   "scripts": {
     "docs": "npm run docs:toc",
     "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
-    "lint": "npm run lint:eslint && npm run lint:manifest",
-    "lint:eslint": "eslint --config ./config/.eslintrc.yml . --fix",
+    "lint": "npm run lint:js && npm run lint:manifest",
+    "lint:js": "eslint --config ./config/.eslintrc.yml . --fix",
     "lint:manifest": "fixpack",
     "prepare": "npm run lint && npm run security",
     "prepublish": "nsp check",
+    "pretest": "npm run lint && npm run security",
     "security": "npm run security:nsp:scan",
-    "security:nsp:scan": "nsp check"
+    "security:nsp:scan": "nsp check",
+    "test": "jest --forceExit"
   }
 }
