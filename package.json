@@ -1,0 +1,73 @@
+{
+  "name": "architecture-decision-records",
+  "description": "A community-driven repository of Architecture Decision Records (ADRs): lightweight, actionable documents that capture design, framework, and application choices that address significant requirements and product delivery challenges facing commonality's product delivery teams.",
+  "version": "0.0.0",
+  "author": {
+    "name": "commonality",
+    "email": "greg@swindle.net",
+    "url": "https://github.com/commonality"
+  },
+  "bugs": "https://github.com",
+  "commitplease": {
+    "style": "angular",
+    "types": [
+      "build",
+      "chore",
+      "ci",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "revert",
+      "style",
+      "test"
+    ],
+    "scope": "\\S+.*"
+  },
+  "contributors": [],
+  "dependencies": {
+    "adr-log": "2.1.1",
+    "eslint-config-standard": "11.0.0",
+    "markdown-magic": "0.1.18",
+    "markdown-magic-install-command": "1.3.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "1.0.1",
+    "@semantic-release/git": "3.0.1",
+    "@semantic-release/npm": "3.0.2",
+    "ajv": "6.1.1",
+    "commitplease": "3.2.0",
+    "eslint": "4.18.1",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-jsdoc": "3.5.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-security": "1.4.0",
+    "eslint-plugin-standard": "3.0.1",
+    "eslint-plugin-unicorn": "4.0.2",
+    "eslint-plugin-xss": "0.1.9",
+    "fixpack": "2.3.1",
+    "jest": "22.4.2",
+    "nsp": "3.2.1",
+    "semantic-release": "13.4.1"
+  },
+  "homepage": "https://github.com/commonality/architecture-decision-records",
+  "keywords": [
+    "architecture-decision-records adr architecture-decision decision-records architecture-doc architecture-guidelines evolutionary-architecture tech-radar"
+  ],
+  "license": "MIT",
+  "maintainers": [],
+  "repository": "https://github.com/commonality/architecture-decision-records.git",
+  "scripts": {
+    "docs": "npm run docs:toc",
+    "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
+    "lint": "npm run lint:eslint && npm run lint:manifest",
+    "lint:eslint": "eslint --config ./config/.eslintrc.yml . --fix",
+    "lint:manifest": "fixpack",
+    "prepare": "npm run lint && npm run security",
+    "prepublish": "nsp check",
+    "security": "npm run security:nsp:scan",
+    "security:nsp:scan": "nsp check"
+  }
+}

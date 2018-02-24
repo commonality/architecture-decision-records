@@ -1,12 +1,20 @@
-# Architecture Decision Records (ADRs)
+# <img alt="commonalaxy logo" src="./docs/img/logo-commonalaxy.png" height="100" width="100" align="left"> Architecture Decision Records (ADRs)
 
 > <img alt="Repository" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/repo.svg" height="60" width="60" align="left"> A community-driven repository of Architecture Decision Records (ADRs): lightweight, actionable documents that capture design, framework, and application choices that address significant requirements and product delivery challenges facing commonality's product delivery teams.
 
----
+[![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/architecture-decision-records.svg?style=flat-square)](https://www.npmjs.org/commonality/architecture-decision-records)<br>
+[![David](https://img.shields.io/david/commonality/architecture-decision-records.svg?style=flat-square)](https://david-dm.org/commonality/architecture-decision-records)
+[![David](https://img.shields.io/david/dev/commonality/commonality/architecture-decision-records.svg?style=flat-square)](https://david-dm.org/commonality/commonality/architecture-decision-records?type=dev)<br>
+[![Travis CI](https://img.shields.io/travis/commonality/commonality/architecture-decision-records.svg?style=flat-square&logo=travis)](https://travis-ci.org/commonality/commonality/architecture-decision-records)
+[![AppVeyor](https://img.shields.io/appveyor/ci/commonality/architecture-decision-records.svg?style=flat-square&logo=appveyor)]()
+[![Codecov](https://img.shields.io/codecov/c/github/commonality/architecture-decision-records.svg?style=flat-square&logo=codecov)]()
+[![Codacy](https://img.shields.io/codacy/id.svg?style=flat-square&logo=Codacy)]()
+[![GitHub](https://img.shields.io/github/issues/commonality/architecture-decision-records.svg?style=flat-square&logo=github)](https://github.com/commonality/architecture-decision-records/issues)
 
 ## Propose an architecture decision
 
-> <img alt="Info" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/info.svg" height="26" width="26" align="left"> We classify ADRs by [TechRadar ![External link][icon-octicon-link-external]][tw-tech-radar-faq-url] Quadrant.
+> <img alt="Info" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/info.svg" height="30" width="30" align="left"> We classify ADRs by [TechRadar ![External link][icon-octicon-link-external]][tw-tech-radar-faq-url] Quadrant.
 
 - Propose a [Language or Framework ![External link][icon-octicon-link-external]][tw-tr-languages-frameworks]
 
@@ -79,10 +87,9 @@
 [label-tech-radar-tools-assess-img]: https://fakeimg.pl/80x40/86b782/FFF/?text=Assess&font_size=18
 [label-tech-radar-tools-hold-img]: https://fakeimg.pl/80x40/86b782/FFF/?text=Hold&font_size=18
 [icon-octicon-question]: https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/question.svg
-
-
 [tw-tr-languages-frameworks]: https://thoughtworks.com/radar/languages-and-frameworks
 [tw-tr-platforms]: https://thoughtworks.com/radar/platforms
 [tw-tr-techniques]: https://thoughtworks.com/radar/techniques
 [tw-tr-tools]: https://thoughtworks.com/radar/tools
 [tw-tech-radar-faq-url]: https://www.thoughtworks.com/radar/a-z
+[img-logo-commonality]: ./docs/img/logo-commonalaxy.png
