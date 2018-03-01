@@ -52,7 +52,7 @@
     "nsp": "3.2.1",
     "semantic-release": "13.4.1"
   },
-  "homepage": "https://github.com/commonality/architecture-decision-records",
+  "homepage": "https://github.com/commonality/architecture-decision-records#readme",
   "jest": {
     "name": "architecture-decision-records",
     "automock": false,
@@ -68,11 +68,6 @@
     },
     "projects": [
       "<rootDir>"
-    ],
-    "testPathIgnorePatterns": [
-      "/__tests__/__fixtures__/",
-      "/__fixtures__/",
-      "/__mocks__/"
     ]
   },
   "keywords": [
@@ -85,7 +80,7 @@
     "docs": "npm run docs:toc",
     "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
     "lint": "npm run lint:js && npm run lint:manifest",
-    "lint:js": "eslint --config ./config/.eslintrc.yml . --fix",
+    "lint:js": "eslint --config .github/config/.eslintrc.yml . --fix",
     "lint:manifest": "fixpack",
     "prepare": "npm run lint && npm run security",
     "prepublish": "nsp check",
