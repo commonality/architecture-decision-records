@@ -117,12 +117,12 @@ Contributions in the form of GitHub pull requests are welcome. Before embarking 
 
 <!-- ⛔️ Contributing ⛔️  -->
 
-[code-of-conduct-url]: https://github.com/commonality/architecture-decision-records/blob/master/.github/CODE_OF_CONDUCT.md
-[contributing-image]: https://img.shields.io/badge/read---CONTRIBUTING%20Guidelines---yellow.svg?style=for-the-badge&label=read+the
-[contributing-url]: https://github.com/commonality/architecture-decision-records/blob/master/.github/CONTRIBUTING.md
-[issues-new-defect-image]: https://img.shields.io/badge/report---defect---lightgrey.svg?style=for-the-badge&label=report+a
+[code-of-conduct-url]: .github/CODE_OF_CONDUCT.md
+[contributing-image]: https://img.shields.io/badge/-CONTRIBUTING%20Guidelines-yellow.svg?style=for-the-badge&label=read+the
+[contributing-url]: .github/CONTRIBUTING.md
+[issues-new-defect-image]: https://img.shields.io/badge/-defect-lightgrey.svg?style=for-the-badge&label=report+a
 [issues-new-defect-url]: https://github.com/commonality/architecture-decision-records/issues/new?title=fix%28affected-scope%29%3A+50-character-defect-summary&labels=Priority%3A+Medium%2CStatus%3A+Review+Needed%2CType%3A+Defect&template=defect-report.md
-[issues-new-feat-image]: https://img.shields.io/badge/request---feature---blue.svg?style=for-the-badge&label=request+a
+[issues-new-feat-image]: https://img.shields.io/badge/-feature-blue.svg?style=for-the-badge&label=request+a
 [issues-new-feat-url]: https://github.com/commonality/architecture-decision-records/issues/new?title=feat%28affected-scope%29%3A+50-character-change-proposal-summary&labels=Priority%3A+Medium%2CStatus%3A+Review+Needed%2CType%3A+Feature&template=feature-request.md
 [issues-url]: https://github.com/commonality/architecture-decision-records/issues
 [makeapullrequest-image]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
