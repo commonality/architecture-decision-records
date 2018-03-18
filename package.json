@@ -7,7 +7,7 @@
     "email": "greg@swindle.net",
     "url": "https://github.com/commonality"
   },
-  "bugs": "https://github.com",
+  "bugs": "https://github.com/commonality/architecture-decision-records/issues",
   "commitplease": {
     "style": "angular",
     "types": [
@@ -63,8 +63,8 @@
   "jest": {
     "name": "architecture-decision-records",
     "automock": false,
-    "collectCoverage": true,
-    "coverageDirectory": "/docs/coverage",
+    "collectCoverage": false,
+    "coverageDirectory": "<rootDir>/.github/reports/coverage",
     "coverageThreshold": {
       "global": {
         "branches": 90,
@@ -78,7 +78,14 @@
     ]
   },
   "keywords": [
-    "architecture-decision-records adr architecture-decision decision-records architecture-doc architecture-guidelines evolutionary-architecture tech-radar"
+    "adr",
+    "architecture-decision",
+    "architecture-decision-records",
+    "architecture-doc",
+    "architecture-guidelines",
+    "decision-records",
+    "evolutionary-architecture",
+    "tech-radar"
   ],
   "license": "MIT",
   "maintainers": [],
