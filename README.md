@@ -6,7 +6,8 @@
 
 ## Propose an architecture decision
 
-> <img alt="Info" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/info.svg" height="26" width="26" align="left"> We classify ADRs by [TechRadar ![External link][icon-octicon-link-external]][tw-tech-radar-faq-url] Quadrant.
+> <img alt="Info" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/info.svg" height="26" width="26" align="left"> We classify ADRs by [TechRadar ![External link][icon-octicon-link-external]][tw-tech-radar-faq-url] [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcommonality%2Farchitecture-decision-records.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcommonality%2Farchitecture-decision-records?ref=badge_shield)
+Quadrant.
 
 - Propose a [Language or Framework ![External link][icon-octicon-link-external]][tw-tr-languages-frameworks]
 
@@ -86,3 +87,7 @@
 [tw-tr-techniques]: https://thoughtworks.com/radar/techniques
 [tw-tr-tools]: https://thoughtworks.com/radar/tools
 [tw-tech-radar-faq-url]: https://www.thoughtworks.com/radar/a-z
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcommonality%2Farchitecture-decision-records.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcommonality%2Farchitecture-decision-records?ref=badge_large)
