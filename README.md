@@ -6,7 +6,7 @@
 [![npm](https://img.shields.io/npm/v/architecture-decision-records.svg?style=flat-square)](https://www.npmjs.org/commonality/architecture-decision-records)
 <br>
 [![David](https://img.shields.io/david/commonality/architecture-decision-records.svg?style=flat-square)](https://david-dm.org/commonality/architecture-decision-records)
-[![David](https://img.shields.io/david/dev/commonality/commonality/architecture-decision-records.svg?style=flat-square)](https://david-dm.org/commonality/commonality/architecture-decision-records?type=dev)<br>
+[![David](https://img.shields.io/david/dev/commonality/commonality/architecture-decision-records.svg?style=flat-square)](https://david-dm.org/commonality/architecture-decision-records?type=dev)<br>
 [![Travis CI](https://img.shields.io/travis/commonality/commonality/architecture-decision-records.svg?style=flat-square&logo=travis)](https://travis-ci.org/commonality/commonality/architecture-decision-records)
 [![AppVeyor](https://img.shields.io/appveyor/ci/commonality/architecture-decision-records.svg?style=flat-square&logo=appveyor)]()
 [![Codecov](https://img.shields.io/codecov/c/github/commonality/architecture-decision-records.svg?style=flat-square&logo=codecov)]()
