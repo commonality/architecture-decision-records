@@ -17,7 +17,7 @@
 
 ## Index of ADRs
 
-- [1. Record architecture decisions](docs/adr/0001-record-architecture-decisions.md)
+- [1. Record architecture decisions](docs/0001-record-architecture-decisions.md)
 
 ## Propose an architecture decision
 
