@@ -1,0 +1,14 @@
+*.bundle.js
+*.spec.js
+/.nyc_output/*
+/build/**
+/coverage/**
+/docs/**
+/jsdoc/**
+/reports/**
+/templates/**
+/tests/bench/**
+/tests/fixtures/**
+/tests/performance/**
+/tmp/**
+test.js

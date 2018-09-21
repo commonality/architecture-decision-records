@@ -1,0 +1,133 @@
+{
+  "name": "architecture-decision-records",
+  "description": "A community-driven repository of Architecture Decision Records (ADRs): lightweight, actionable documents that capture design, framework, and application choices that address significant requirements and product delivery challenges facing commonality's product delivery teams.",
+  "version": "0.0.0",
+  "author": {
+    "name": "commonality",
+    "email": "greg@swindle.net",
+    "url": "https://github.com/commonality"
+  },
+  "bugs": "https://github.com/commonality/architecture-decision-records/issues",
+  "commitplease": {
+    "style": "angular",
+    "types": [
+      "build",
+      "chore",
+      "ci",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "revert",
+      "style",
+      "test"
+    ],
+    "scope": "\\S+.*"
+  },
+  "contributors": [],
+  "dependencies": {
+    "adr": "1.0.7"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "2.0.1",
+    "@semantic-release/git": "4.0.1",
+    "@semantic-release/npm": "3.2.2",
+    "ajv": "6.3.0",
+    "commitplease": "3.2.0",
+    "copyfiles": "2.0.0",
+    "eslint": "4.19.0",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-jsdoc": "3.5.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-security": "1.4.0",
+    "eslint-plugin-standard": "3.0.1",
+    "eslint-plugin-unicorn": "4.0.2",
+    "eslint-plugin-xss": "0.1.9",
+    "fixpack": "2.3.1",
+    "jest": "22.4.2",
+    "markdown-magic": "0.1.21",
+    "markdown-magic-install-command": "1.3.1",
+    "nsp": "3.2.1",
+    "semantic-release": "15.1.2"
+  },
+  "directories": {
+    "doc": "./docs"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "homepage": "https://github.com/commonality/architecture-decision-records#readme",
+  "jest": {
+    "name": "architecture-decision-records",
+    "automock": false,
+    "collectCoverage": false,
+    "coverageDirectory": "<rootDir>/.github/reports/coverage",
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "projects": [
+      "<rootDir>"
+    ]
+  },
+  "keywords": [
+    "adr",
+    "architecture-decision",
+    "architecture-decision-records",
+    "architecture-doc",
+    "architecture-guidelines",
+    "decision-records",
+    "evolutionary-architecture",
+    "tech-radar"
+  ],
+  "license": "MIT",
+  "maintainers": [],
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ],
+    "publish": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/commonality/architecture-decision-records.git"
+  },
+  "scripts": {
+    "adr:list": "adr list",
+    "adr:new": "adr new",
+    "adr:template:en": "copyfiles -f '.github/adr-templates/en.md' node_modules/adr/build/main/lib/templates/ --verbose",
+    "adr:to:csv": "adr export csv",
+    "adr:to:graph": "adr generate graph",
+    "adr:to:html": "adr export html",
+    "adr:to:json": "adr export json",
+    "adr:to:markdown": "adr export markdown",
+    "adr:toc": "adr generate toc",
+    "docs": "npm run docs:toc && npm run adr:toc",
+    "docs:toc": "md-magic --path '**/*.md' --ignore 'node_modules'",
+    "lint": "npm run lint:js && npm run lint:manifest",
+    "lint:js": "eslint --config .github/config/.eslintrc.yml . --fix",
+    "lint:manifest": "fixpack",
+    "postinstall": "npm run adr:template:en",
+    "prepare": "npm run lint && npm run security",
+    "prepublish": "nsp check",
+    "pretest": "npm run lint && npm run security",
+    "security": "npm run security:nsp:scan",
+    "security:nsp:scan": "nsp check",
+    "test": "jest --forceExit"
+  }
+}
